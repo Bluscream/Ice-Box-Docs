@@ -24,7 +24,7 @@ jobs:
     - uses: actions/setup-node@v2.1.1
       with:
         node-version: '12'
-    - uses: ruby/setup-ruby@v1.159.0
+    - uses: ruby/setup-ruby@v1.179.0
       with:
         ruby-version: 2.6
         bundler-cache: true
